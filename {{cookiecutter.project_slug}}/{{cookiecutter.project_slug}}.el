@@ -1,11 +1,12 @@
 ;;; {{cookiecutter.project_slug}}.el --- {{cookiecutter.description}} -*- lexical-binding: t -*-
 
-;; Author: {{cookiecutter.author}}
-;; Maintainer: {{cookiecutter.author}}
-;; Version: 0.1
-;; Homepage: https://github.com/{{cookiecutter.username}}/{{cookiecutter.project_slug}}
-;; Package-Requires: ((emacs "25.1")))
+;; Copyright (C) {% now 'utc', '%Y' %} {{cookiecutter.author}} <{{cookiecutter.useremail}}>
 
+;; Author: {{cookiecutter.author}} <{{cookiecutter.useremail}}>
+;; Homepage: https://github.com/{{cookiecutter.username}}/{{cookiecutter.project_slug}}
+;; Keywords: tools
+;; Package-Requires: ((emacs "25.1")))
+;; Version: 0.0.1
 
 ;; This file is not part of GNU Emacs
 
@@ -19,9 +20,8 @@
 ;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 ;; GNU General Public License for more details.
 
-;; For a full copy of the GNU General Public License
-;; see <https://www.gnu.org/licenses/>.
-
+;; You should have received a copy of the GNU General Public License
+;; along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 ;;; Commentary:
 

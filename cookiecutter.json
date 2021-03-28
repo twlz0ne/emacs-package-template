@@ -1,11 +1,12 @@
 {
-    "project_slug": "batman-mode",
-    "name": "Batman Mode",
-    "author": "Bruce Wayne",
-    "username": "batman",
-    "description": "Catches criminals.",
-    "command": "batman-mode",
-    "_copy_without_render": [
-      ".github/workflows/test.yml"
-    ]
+  "project_slug": "batman-mode",
+  "name": "Batman Mode",
+  "author": "Bruce Wayne",
+  "username": "batman",
+  "useremail": "batman@dccomics.com",
+  "description": "Catches criminals.",
+  "command": "batman-mode",
+  "_copy_without_render": [
+    ".github/workflows/test.yml"
+  ]
 }

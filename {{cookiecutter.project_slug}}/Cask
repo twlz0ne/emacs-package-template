@@ -1,6 +1,6 @@
 (source melpa)
 
-(package "{{cookiecutter.project_slug}}" "0.1" "{{cookiecutter.description}}")
+(package "{{cookiecutter.project_slug}}" "0.0.1" "{{cookiecutter.description}}")
 
 (development
  (depends-on "ert-runner"))
