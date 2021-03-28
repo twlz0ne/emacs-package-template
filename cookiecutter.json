@@ -4,5 +4,8 @@
     "author": "Bruce Wayne",
     "username": "batman",
     "description": "Catches criminals.",
-    "command": "batman-mode"
+    "command": "batman-mode",
+    "_copy_without_render": [
+      ".github/workflows/test.yml"
+    ]
 }

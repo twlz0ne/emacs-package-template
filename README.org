@@ -1,6 +1,6 @@
 #+TITLE: Emacs Package Template
 
-[[https://app.circleci.com/pipelines/github/sulami/emacs-package-template][file:https://circleci.com/gh/sulami/emacs-package-template.svg?style=svg]]
+[[https://github.com/twlz0ne/emacs-package-template/actions?query=workflow%3ACI][file:https://github.com/twlz0ne/emacs-package-template/workflows/CI/badge.svg]]
 
 This is a [[https://github.com/cookiecutter/cookiecutter][Cookiecutter]] template for [[https://emacs.org][Emacs]] packages.
 
@@ -12,9 +12,9 @@ functionality.
 - Simple README scaffold with status badges
 - Hosted on GitHub
 - GPLv3, not a big fan myself but this is GNU Emacs after all
-- Tests with ERT on CircleCI on several recent Emacs versions
+- Tests with ERT on Github Actions on several recent Emacs versions
 - Setup for MELPA
-- Dependencies installed with straight
+- Dependencies installed with Cask
 
 * Use
 
@@ -27,7 +27,7 @@ pip3 install cookiecutter
 You can run directly from GitHub:
 
 #+begin_src sh
-cookiecutter gh:sulami/emacs-package-template
+cookiecutter gh:twlz0ne/emacs-package-template
 #+end_src
 
 You will be prompted for some values to fill into the template.

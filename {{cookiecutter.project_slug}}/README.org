@@ -1,7 +1,7 @@
 #+TITLE: {{cookiecutter.name}}
 
 [[https://melpa.org/#/{{cookiecutter.project_slug}}][file:https://melpa.org/packages/{{cookiecutter.project_slug}}-badge.svg]]
-[[https://app.circleci.com/pipelines/github/{{cookiecutter.username}}/{{cookiecutter.project_slug}}][file:https://circleci.com/gh/{{cookiecutter.username}}/{{cookiecutter.project_slug}}.svg?style=svg]]
+[[https://github.com/{{cookiecutter.username}}/{{cookiecutter.project_slug}}/actions?query=workflow%3ACI][file:https://github.com/{{cookiecutter.username}}/{{cookiecutter.project_slug}}/workflows/CI/badge.svg]]
 
 {{cookiecutter.description}}
 

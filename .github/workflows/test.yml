@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+    paths-ignore:
+      - '**.org'
+  pull_request:
+    paths-ignore:
+      - '**.org'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+          architecture: x64
+      - name: Check out the source code
+        uses: actions/checkout@v2
+      - name: Install Cookiecutter
+        run: pip install cookiecutter
+      - name: Generate new package
+        run: cookiecutter --no-input --default-config .
